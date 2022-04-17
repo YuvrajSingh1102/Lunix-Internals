@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+NUM_THREADS	pthread_detach.c	27;"	d	file:
+PrintHello	pthread_struct.c	/^void *PrintHello(void *threadobj) {$/;"	f
+_XOPEN_SOURCE	pthread_spinlock.c	1;"	d	file:
+cond1	pthd_mutex_cond.c	/^pthread_cond_t cond1 = PTHREAD_COND_INITIALIZER;$/;"	v
+done	pthd_mutex_cond.c	/^int done = 1;$/;"	v
+foo	pthd_mutex_cond.c	/^void* foo(void *arg) {$/;"	f
+i	pthread_detach.c	/^int i=0;$/;"	v
+lock	pthd_mutex_cond.c	/^pthread_mutex_t lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+main	pthd_mutex_cond.c	/^int main() {$/;"	f
+main	pthread_arg_join.c	/^int main(int argc, char *argv[])$/;"	f
+main	pthread_detach.c	/^int main (int argc, char *argv[])$/;"	f
+main	pthread_prority.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	pthread_spinlock.c	/^int main()$/;"	f
+main	pthread_struct.c	/^int main() {$/;"	f
+mesg	pthread_struct.c	/^    char mesg[100];$/;"	m	struct:my_thread	file:
+my	pthread_prority.c	/^void *my(void *i) {$/;"	f
+my_thread	pthread_struct.c	/^struct my_thread {$/;"	s	file:
+myfun	pthread_detach.c	/^void *myfun(void *null)$/;"	f
+slock	pthread_spinlock.c	/^volatile int slock;$/;"	v
+spinlock	pthread_spinlock.c	/^static pthread_spinlock_t spinlock;$/;"	v	file:
+spinlockThread	pthread_spinlock.c	/^void *spinlockThread(void *i)$/;"	f
+threadFunc	pthread_arg_join.c	/^static void* threadFunc(void *arg)$/;"	f	file:
+thread_id	pthread_struct.c	/^    int thread_id;$/;"	m	struct:my_thread	file:
